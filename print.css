@@ -1,0 +1,42 @@
+/*
+Notes from artofblog.com/print-and-mobile-css/
+
+@media print {
+    Print CSS rules go here
+    /* Note: You need a separate @media screen group for other rules
+}
+
+display:none;
+//Use when you don't want something to show when printing.
+
+Hide sidebar and navigation
+No color
+Bigger font, serifs*/
+#content { width: 100%; margin: 0; float: none;  background: transparent;} 
+
+a:link:after { content: " (" attr(href) ") "; } 
+a:link { font-weight: bold; text-decoration: underline; color: #06c; 
+    /*#0066cc is a fresh blue color, and it looks like #999999 when printed in grayscale. With this, links will look good printed either in color or in black and white. They will also stand out from regular text. webdesignerdepot.com/2010/01/10-tips-for-better-print-style-sheets/ */}
+
+@media print {
+    .nav, .sidebar, .menu, .callout { display: none; }
+    body { background: #fff; 
+           color: #000;
+           font-family: Georgia, ‘Times New Roman’, serif;  }
+    p { font-size: 14pt; /*Made it 14pt instead of 12pt because bigger font is easier to read from a distance which is helpful for recipes which are primary focus of this website*/}
+    
+    div  {background: #fff; }
+    h1, h2, h3, h4, h5, h6{
+           color: black;
+           font-family: 'Times New Roman', serif; }
+    #panel1d{
+        display:block !important
+    }
+}
+
+#printMsg { display: block; }
+
+@media handheld {
+    .sidebar, .content { float: none; }
+    body { background-image: none; }
+}

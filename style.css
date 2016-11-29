@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Bitter:400,400i,700|Oswald:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Bitter:400,400i,700|Oswald:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Bitter:400,400i,700|Oswald:300,400,700");
+/* line 7, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.title-bar {
+  background: #661A1E;
+  padding: 1rem; }
+  /* line 10, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .title-bar h1 {
+    position: sticky;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    color: #FEF9F0; }
+
+/* line 18, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.top-bar {
+  background: #A1373B; }
+  /* line 19, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .top-bar h1 {
+    position: sticky;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    color: #FEF9F0; }
+
+/* line 26, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.top-bar ul {
+  background: #A1373B; }
+
+/* line 28, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.top-bar ul li {
+  background: #A1373B; }
+
+/* line 30, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.top-bar ul li a {
+  padding: 1.5rem;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; }
+
+/* line 36, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+.menu-text {
+  color: #FEF9F0; }
+
+@media only screen and (max-width: 40em) {
+  /* line 39, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .menu-text {
+    display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  /* line 43, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .menu:last-child {
+    border-left: 0px solid #661A1E; }
+  /* line 47, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .menu:first-child {
+    border-left: none; }
+  /* line 50, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_top-bar.scss */
+  .menu li:not(:last-child) {
+    border-right: 0px solid #661A1E; } }
+
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px, ... */
+/* line 5, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_links.scss */
+a#email:link {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal; }
+
+/* line 6, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_links.scss */
+a#email:visited {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal; }
+
+/* line 7, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_links.scss */
+a#email:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal; }
+
+/* line 8, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_links.scss */
+a#email:active {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal; }
+
+/* line 11, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/_links.scss */
+a:link {
+  color: #362819; }
+
+/* line 7, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+#printMsg {
+  display: none; }
+
+/* line 11, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.close-button {
+  padding: 5px; }
+
+/* line 15, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+#index {
+  width: 150px;
+  height: auto; }
+
+/* line 20, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.mobile-icon {
+  width: 30px;
+  display: flex;
+  margin: 3px auto; }
+
+/* line 27, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.desktop-icon {
+  width: 40px;
+  display: inline-block;
+  margin: 10px; }
+
+/* line 33, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+header {
+  margin-bottom: 5px; }
+  /* line 35, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+  header h3 {
+    text-align: center; }
+
+/* line 40, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+footer {
+  background-color: #EEE5DE;
+  color: #661A1E;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: center; }
+
+/* line 48, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.content {
+  margin: 10px;
+  display: inline-block; }
+
+/* line 53, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: .9em;
+  color: #362819;
+  background-color: #FEF9F0; }
+
+/* line 60, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h1 {
+  font-size: 2.2em;
+  font-family: 'Bitter', serif;
+  color: #362819;
+  text-shadow: 0.5px 0.5px #CD5C5C; }
+
+/* line 67, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h2 {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #362819;
+  text-shadow: 1px 1px 0 #A39480; }
+
+/* line 84, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h3 {
+  font-size: 1.65em;
+  font-family: 'Oswald', sans-serif;
+  color: #661A1E;
+  letter-spacing: .02em;
+  text-shadow: 0.5px 0.5px #DAA520; }
+
+/* line 92, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h4 {
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .04em;
+  color: #8B7765;
+  text-shadow: 1px 1px #FFF8DC, 1px 1px #FFF8DC;
+  letter-spacing: .05em; }
+
+/* line 109, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h5 {
+  font-size: 1.25em;
+  font-family: 'Oswald', sans-serif;
+  color: #A1373B; }
+
+/* line 115, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+h6 {
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+  color: #CD5C5C;
+  font-style: italic; }
+
+/* line 122, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.container {
+  max-width: 1060px;
+  margin: 5px auto;
+  padding: 20px;
+  overflow: auto;
+  background-color: #FEF9F0;
+  border: 8px solid #A39480; }
+
+/* line 131, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.headings {
+  font-size: 1.5em;
+  padding: 2px 15px;
+  font-weight: 800;
+  color: #d3d3d3; }
+
+/* line 138, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.center {
+  display: block;
+  text-align: center; }
+
+/* line 142, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.constrain {
+  max-width: 1060px;
+  margin: 0px auto; }
+
+/* line 146, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.callout {
+  border: 1px solid #DAA520;
+  background-color: #FFF8DC; }
+
+/* line 150, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.button {
+  color: #FEF9F0;
+  background-color: #A1373B; }
+
+/* line 154, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+.button:hover {
+  background-color: #CD5C5C; }
+
+/* line 158, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+#feature {
+  margin: 10px auto;
+  height: auto; }
+
+@media only screen and (min-width: lower-bound(em-calc(1440) em-calc(1), em-calc(1920))) {
+  /* line 163, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+  header#logo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 5px auto; } }
+
+@media only screen and (min-width: lower-bound(em-calc(1024) em-calc(1), em-calc(1440))) and (max-width: upper-bound(em-calc(1024) em-calc(1), em-calc(1440))) {
+  /* line 163, /Volumes/McKenna Schaller/Fall 2016/web115/public_html/cooking-with-mckenna/css/style.scss */
+  header#logo {
+    width: 100%;
+    height: auto; } }
+
+@media only screen and (max-width: upper-bound(0, em-calc(640))) {
+  width: 100%;
+  height: auto; }
+
+@media only screen and (min-width: lower-bound(em-calc(640) em-calc(1), em-calc(1024))) and (max-width: upper-bound(em-calc(640) em-calc(1), em-calc(1024))) {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=style.css.map */
